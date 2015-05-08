@@ -1,0 +1,182 @@
+body {background: rgba(192, 225, 255, 0.53);
+    font-family: Microsoft YaHei;
+}
+a:link {text-decoration:none}
+a:link:hover{
+   color: red;
+}
+.ds-post-main {
+
+    font-family: Microsoft YaHei;
+    word-wrap: break-word;
+    word-break: normal;
+    position:relative;
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+#ip{
+    text-align: right;
+    font-size: 12px;
+    text-align: right;
+    /*border-bottom: 1px solid #d8ffff;*/
+    border-top: 1px solid #d8ffff;
+
+}
+#ip>span{
+    /*border-bottom: 1px solid #b8e3ff;*/
+
+    /*//块元素居左*/
+    /*text-align: left;*/
+    /*内联元素居左*/
+    float: left;
+    font-size: 12px;
+    /*定义为块元素*/
+    /*display: block;*/
+    /*定义为内联元素*/
+    /*display:inline;*/
+
+}
+
+
+.elegant-aero {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    background: #D2E9FF;
+    padding: 20px 20px 20px 20px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+}
+.elegant-aero h1 {
+    font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 10px 10px 10px 20px;
+    display: block;
+    background: #C0E1FF;
+    border-bottom: 1px solid #B8DDFF;
+    margin: -20px -20px 15px;
+}
+.elegant-aero h1>span {
+    display: block;
+    font-size: 11px;
+}
+.elegant-aero textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+.elegant-aero label {
+    /*display: block;*/
+    margin: 0px 0px 5px;
+}
+.elegant-aero label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.elegant-aero .submit{
+    padding: 10px 30px 10px 30px;
+    background: #66C1E4;
+    border: none;
+    color: #FFF;
+    box-shadow: 1px 1px 1px #4C6E91;
+    -webkit-box-shadow: 1px 1px 1px #4C6E91;
+    -moz-box-shadow: 1px 1px 1px #4C6E91;
+    text-shadow: 1px 1px 1px #5079A3;
+
+}
+.elegant-aero .submit:hover{
+    background: #3EB1DD;
+}
+.elegant-aero .inline{
+    /*padding: 10px 30px 10px 30px;*/
+}
+
+#for{
+
+    text-align: center;
+}
+
+.ds-comment-body {
+    /*margin-left:auto;*/
+    /*margin-right:auto;*/
+    /*padding-right:10px 10px 10px 30px ;*/
+    /*height:auto;*/
+    display: block;
+    background: #c0e1ff;
+}
+#login{
+
+    font-family: Microsoft YaHei;
+    font-size: 15px;
+    /*text-align: right;*/
+    float: right;
+    text-decoration: none;
+}
+#logout{
+    font-family: Microsoft YaHei;
+    font-size: 15px;
+    /*text-align: right;*/
+    float: right;
+    text-decoration: none;
+}
+#hello{
+    font-family: Microsoft YaHei;
+    font-size: 15px;
+    float: right;
+    text-decoration: none;
+}
+#logout:hover{
+    color: red;
+}
+#login:hover{
+    color: red;
+}
+
+.signin label{
+    display: block;
+    padding: 10px 10px 5px 15px;
+    font-size: 11px;
+    color: #777;
+}
+
+.signin input{
+    display: block;
+    /*调整输入框位置*/
+    margin: 5px 10px 10px 15px;
+    width: 85%;
+    padding: 5px;
+    font-size: 16px;
+}
+.signin {
+    width:320px; margin:0 auto; position: relative;
+    background: #d2e9ff;
+    padding: 0px 0px 0px 0px;
+    font-family: Microsoft YaHei;
+
+}
+.search{
+    font-family: Microsoft YaHei;
+    width:320px; margin:0 auto; position: relative;
+}
+
+/*#hrs{*/
+    /*margin-bottom:10cm;*/
+/*}*/
+/*.tbr{*/
+   /*margin-bottom:0.3ch;*/
+/*}*/
+/*.bbr{*/
+   /*margin-bottom:2ch;*/
+/*}*/
+.br{
+
+    margin-bottom:2ch;
+    margin-top:0.3ch;
+}
+
